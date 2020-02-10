@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
 class snake < Formula
-  desc Yet Another Mach-O Unused ObjC Selector/Class/Protocol Detector. 检测ObjC无用方法、无用类、无用协议。"
+  desc "Yet Another Mach-O Unused ObjC Selector/Class/Protocol Detector. 检测ObjC无用方法、无用类、无用协议。"
   homepage "https://github.com/flexih/Snake"
   url "https://github.com/flexih/Snake/releases/download/v1.0/snake.zip"
   version "1.0"
@@ -12,7 +12,7 @@ class snake < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
-    # system "tar -Jvxf snake.zip"
+    system "tar -Jvxf snake.zip"
     bin.install "snake"
   end
 end
