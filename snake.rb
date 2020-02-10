@@ -12,7 +12,7 @@ class snake < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
-    system "tar -Jvxf snake.zip"
+    # system "tar -Jvxf snake.zip"
     bin.install "snake"
   end
 end
