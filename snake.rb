@@ -2,7 +2,7 @@
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class snake < Formula
+class Snake < Formula
   desc "Yet Another Mach-O Unused ObjC Selector/Class/Protocol Detector. 检测ObjC无用方法、无用类、无用协议。"
   homepage "https://github.com/flexih/Snake"
   url "https://github.com/flexih/Snake/releases/download/v1.0/snake.zip"
