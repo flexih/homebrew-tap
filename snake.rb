@@ -5,9 +5,9 @@
 class Snake < Formula
   desc "Yet Another Mach-O Unused ObjC Selector/Class/Protocol Detector. 检测ObjC无用方法、无用类、无用协议。"
   homepage "https://github.com/flexih/Snake"
-  url "https://github.com/flexih/Snake/releases/download/v1.3/snake.zip"
-  version "1.3"
-  sha256 "9f6ce017bb2041d95e6522efbcad36bc468ac860d1b59c18ff52d2ea44fa1026"
+  url "https://github.com/flexih/Snake/releases/download/v1.4/snake.zip"
+  version "1.4"
+  sha256 "de383dda20659f2089855dac0ae8fb50896616aaada5a899047b4e966d535411"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
